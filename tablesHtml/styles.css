@@ -1,3 +1,10 @@
+/* heading */
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Table */
+
 table {
     height: 40px;
     left: 10%;
