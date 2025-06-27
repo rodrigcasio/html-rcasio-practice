@@ -1,0 +1,44 @@
+<!-- Example #2 of placing the thead element -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spanning Rows in html</title>       
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>Tables concepts</h1>
+        <h2>Table head element</h2>
+        <h3>Example of using table head element.
+            The table head element used to group the header content in a table, and should contain all the headings
+            for the table columns. It is usually placed at the top of the table.
+        </h3>
+
+        <div>
+            <table>
+            <thead>  <!-- Openning the table head element -->
+                <tr>    
+                    <th></th>
+                    <th>Saturady</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>  <!-- Closing the table head element -->
+            <tbody>    <!-- Here we are enclosing the body of the table with the tbody tag element -->
+                <tr>   
+                    <th>Morning</th>
+                    <td rowspan="2">Work</td>
+                    <td rowspan="3">Relax</td>
+                </tr>
+                <tr>    <!-- 3rd row -->
+                    <th>Afternoon</th>
+                </tr>
+                <tr>    <!-- 4th row -->
+                    <td>Evening</td>
+                    <td>Dinner</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>
