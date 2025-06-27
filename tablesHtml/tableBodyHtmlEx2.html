@@ -1,0 +1,42 @@
+<!-- Ln 20 - 34  Second example of using the element tbody for the body of the table -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spanning Rows in html</title>       
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>Tables concepts</h1>
+        <h2>Table body Element Example #2</h2>
+        <h3>Here we are enclosing the body of the table with the tbody tag element,
+            discarding the headings. The table body element used for longer sets of data,
+            and should contain all the table data, excluding the headings.
+        </h3>
+
+        <div>
+            <table>
+                <tr>    <!-- 1st row-->
+                    <th></th>
+                    <th>Saturady</th>
+                    <th>Sunday</th>
+                </tr>
+            <tbody>    <!-- Here we are enclosing the body of the table with the tbody tag element -->
+                <tr>    <!-- 2nd row -->
+                    <th>Morning</th>
+                    <td rowspan="2">Work</td>
+                    <td rowspan="3">Relax</td>
+                </tr>
+                <tr>    <!-- 3rd row -->
+                    <th>Afternoon</th>
+                </tr>
+                <tr>    <!-- 4th row -->
+                    <td>Evening</td>
+                    <td>Dinner</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>
